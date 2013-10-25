@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.1" client="administrator" type="language" method="upgrade">
+<extension version="3.2" client="administrator" type="language" method="upgrade">
 	<name>French (fr-FR)</name>
 	<tag>fr-FR</tag>
-	<version>3.1.4.1</version>
+	<version>3.2.0.1</version>
 	<creationDate>3 Juillet 2013</creationDate>
 	<author>French translation team : joomla.fr</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
@@ -11,11 +11,13 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>fr-FR administrator language</description>
 	<files>
-        <filename>index.html</filename>
+		<filename>index.html</filename>
 		<filename>fr-FR.com_admin.ini</filename>
 		<filename>fr-FR.com_admin.sys.ini</filename>
 		<filename>fr-FR.com_banners.ini</filename>
 		<filename>fr-FR.com_banners.sys.ini</filename>
+		<filename>fr-FR.com_ajax.ini</filename>
+		<filename>fr-FR.com_ajax.sys.ini</filename>
 		<filename>fr-FR.com_cache.ini</filename>
 		<filename>fr-FR.com_cache.sys.ini</filename>
 		<filename>fr-FR.com_categories.ini</filename>
@@ -28,6 +30,8 @@
 		<filename>fr-FR.com_contact.sys.ini</filename>
 		<filename>fr-FR.com_content.ini</filename>
 		<filename>fr-FR.com_content.sys.ini</filename>
+		<filename>fr-FR.com_contenthistory.ini</filename>
+		<filename>fr-FR.com_contenthistory.sys.ini</filename>
 		<filename>fr-FR.com_cpanel.ini</filename>
 		<filename>fr-FR.com_cpanel.sys.ini</filename>
 		<filename>fr-FR.com_finder.ini</filename>
@@ -53,10 +57,14 @@
 		<filename>fr-FR.com_newsfeeds.sys.ini</filename>
 		<filename>fr-FR.com_plugins.ini</filename>
 		<filename>fr-FR.com_plugins.sys.ini</filename>
+		<filename>fr-FR.com_postinstall.ini</filename>
+		<filename>fr-FR.com_postinstall.sys.ini</filename>
 		<filename>fr-FR.com_redirect.ini</filename>
 		<filename>fr-FR.com_redirect.sys.ini</filename>
 		<filename>fr-FR.com_search.ini</filename>
 		<filename>fr-FR.com_search.sys.ini</filename>
+		<filename>fr-FR.com_services.ini</filename>
+		<filename>fr-FR.com_services.sys.ini</filename>
 		<filename>fr-FR.com_tags.ini</filename>
 		<filename>fr-FR.com_tags.sys.ini</filename>
 		<filename>fr-FR.com_templates.ini</filename>
@@ -100,6 +108,8 @@
 		<filename>fr-FR.mod_toolbar.sys.ini</filename>
 		<filename>fr-FR.mod_version.ini</filename>
 		<filename>fr-FR.mod_version.sys.ini</filename>
+		<filename>fr-FR.com_authentication_cookie.ini</filename>
+		<filename>fr-FR.com_authentication_cookie.sys.ini</filename>
 		<filename>fr-FR.plg_authentication_gmail.ini</filename>
 		<filename>fr-FR.plg_authentication_gmail.sys.ini</filename>
 		<filename>fr-FR.plg_authentication_joomla.ini</filename>
@@ -112,8 +122,6 @@
 		<filename>fr-FR.plg_content_emailcloak.sys.ini</filename>
 		<filename>fr-FR.plg_content_finder.ini</filename>
 		<filename>fr-FR.plg_content_finder.sys.ini</filename>
-		<filename>fr-FR.plg_content_geshi.ini</filename>
-		<filename>fr-FR.plg_content_geshi.sys.ini</filename>
 		<filename>fr-FR.plg_content_joomla.ini</filename>
 		<filename>fr-FR.plg_content_joomla.sys.ini</filename>
 		<filename>fr-FR.plg_content_loadmodule.ini</filename>
@@ -152,6 +160,8 @@
 		<filename>fr-FR.plg_finder_tags.sys.ini</filename>
 		<filename>fr-FR.plg_finder_weblinks.ini</filename>
 		<filename>fr-FR.plg_finder_weblinks.sys.ini</filename>
+		<filename>fr-FR.plg_installer_webinstaller.ini</filename>
+		<filename>fr-FR.plg_installer_webinstaller.sys.ini</filename>
 		<filename>fr-FR.plg_quickicon_extensionupdate.ini</filename>
 		<filename>fr-FR.plg_quickicon_extensionupdate.sys.ini</filename>
 		<filename>fr-FR.plg_quickicon_joomlaupdate.ini</filename>
@@ -188,6 +198,8 @@
 		<filename>fr-FR.plg_system_remember.sys.ini</filename>
 		<filename>fr-FR.plg_system_sef.ini</filename>
 		<filename>fr-FR.plg_system_sef.sys.ini</filename>
+		<filename>fr-FR.plg_twofactorauth_totp.ini</filename>
+		<filename>fr-FR.plg_twofactorauth_totp.sys.ini</filename>
 		<filename>fr-FR.plg_user_contactcreator.ini</filename>
 		<filename>fr-FR.plg_user_contactcreator.sys.ini</filename>
 		<filename>fr-FR.plg_user_joomla.ini</filename>
