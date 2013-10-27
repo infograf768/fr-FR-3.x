@@ -200,6 +200,8 @@
 		<filename>fr-FR.plg_system_sef.sys.ini</filename>
 		<filename>fr-FR.plg_twofactorauth_totp.ini</filename>
 		<filename>fr-FR.plg_twofactorauth_totp.sys.ini</filename>
+		<filename>fr-FR.plg_twofactorauth_yubikey.ini</filename>
+		<filename>fr-FR.plg_twofactorauth_yubikey.sys.ini</filename>
 		<filename>fr-FR.plg_user_contactcreator.ini</filename>
 		<filename>fr-FR.plg_user_contactcreator.sys.ini</filename>
 		<filename>fr-FR.plg_user_joomla.ini</filename>
