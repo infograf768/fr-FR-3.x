@@ -627,9 +627,9 @@ INSERT INTO `#__extensions` (`extension_id`, `name`, `type`, `element`, `folder`
 (507, 'isis', 'template', 'isis', '', 1, 1, 1, 0, '', '{"templateColor":"","logoFile":""}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (600, 'English (United Kingdom)', 'language', 'en-GB', '', 0, 1, 1, 1, '', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (601, 'English (United Kingdom)', 'language', 'en-GB', '', 1, 1, 1, 1, '', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(602, 'French fr-FR', 'language', 'fr-FR', '', 0, 1, 0, 0, '{"name":"French (fr-FR)","type":"language","creationDate":"Décembre 2013","author":"French translation team : joomla.fr","copyright":"Copyright (C) 2005 - 2013 joomla.fr et Open Source Matters. Tous droits r\\u00e9serv\\u00e9s","authorEmail":"traduction@joomla.fr","authorUrl":"www.joomla.fr","version":"3.2.1.1","description":"fr-FR site language","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(603, 'French fr-FR', 'language', 'fr-FR', '', 1, 1, 0, 0, '{"name":"French (fr-FR)","type":"language","creationDate":"Décembre 2013","author":"French translation team : joomla.fr","copyright":"Copyright (C) 2005 - 2013 joomla.fr et Open Source Matters. Tous droits r\\u00e9serv\\u00e9s","authorEmail":"traduction@joomla.fr","authorUrl":"www.joomla.fr","version":"3.2.1.1","description":"fr-FR administrator language","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(605, 'fr-FR', 'package', 'pkg_fr-FR', '', 0, 1, 1, 0, '{"name":"French Language Pack","type":"package","creationDate":"Décembre 2013","author":"French translation team : joomla.fr","copyright":"Copyright (C) 2005 - 2013 joomla.fr et Open Source Matters. Tous droits r\\u00e9serv\\u00e9s","authorEmail":"traduction@joomla.fr","authorUrl":"www.joomla.fr","version":"3.1.1.1","description":"\\n\\t\\t\\n\\t\\t<h3>Paquet de langue fran\\u00e7ais complet Joomla! fr-FR version 3.2.1<\\/h3>\\n\\t\\t<h3>Joomla! Full French (fr-FR) Language Package version 3.2.1<\\/h3>\\n\\t\\t\\n\\t","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(602, 'French fr-FR', 'language', 'fr-FR', '', 0, 1, 0, 0, '{"name":"French (fr-FR)","type":"language","creationDate":"February 2014","author":"French translation team : joomla.fr","copyright":"Copyright (C) 2005 - 2014 joomla.fr et Open Source Matters. Tous droits r\\u00e9serv\\u00e9s","authorEmail":"traduction@joomla.fr","authorUrl":"www.joomla.fr","version":"3.2.2.1","description":"fr-FR site language","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(603, 'French fr-FR', 'language', 'fr-FR', '', 1, 1, 0, 0, '{"name":"French (fr-FR)","type":"language","creationDate":"February 2014","author":"French translation team : joomla.fr","copyright":"Copyright (C) 2005 - 2014 joomla.fr et Open Source Matters. Tous droits r\\u00e9serv\\u00e9s","authorEmail":"traduction@joomla.fr","authorUrl":"www.joomla.fr","version":"3.2.2.1","description":"fr-FR administrator language","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(605, 'fr-FR', 'package', 'pkg_fr-FR', '', 0, 1, 1, 0, '{"name":"French Language Pack","type":"package","creationDate":"February 2014","author":"French translation team : joomla.fr","copyright":"Copyright (C) 2005 - 2014 joomla.fr et Open Source Matters. Tous droits r\\u00e9serv\\u00e9s","authorEmail":"traduction@joomla.fr","authorUrl":"www.joomla.fr","version":"3.1.2.1","description":"\\n\\t\\t\\n\\t\\t<h3>Paquet de langue fran\\u00e7ais complet Joomla! fr-FR version 3.2.2<\\/h3>\\n\\t\\t<h3>Joomla! Full French (fr-FR) Language Package version 3.2.2<\\/h3>\\n\\t\\t\\n\\t","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (700, 'files_joomla', 'file', 'joomla', '', 0, 1, 1, 1, '', '', '', '', 0, '0000-00-00 00:00:00', 0, 0);
 
 -- --------------------------------------------------------
@@ -1128,7 +1128,7 @@ INSERT INTO `#__finder_terms_common` (`term`, `language`) VALUES
 ('yet', 'en'),
 ('you', 'en'),
 ('your', 'en'),
-('yours', 'en')
+('yours', 'en'),
 ('alors','fr'),
 ('au','fr'),
 ('aucuns','fr'),
@@ -1317,8 +1317,8 @@ CREATE TABLE IF NOT EXISTS `#__languages` (
 --
 
 INSERT INTO `#__languages` (`lang_id`, `lang_code`, `title`, `title_native`, `sef`, `image`, `description`, `metakey`, `metadesc`, `sitename`, `published`, `access`, `ordering`) VALUES
-(1, 'en-GB', 'English (UK)', 'English (UK)', 'en', 'en', '', '', '', '', 1, 0, 1),
-(2, 'fr-FR', 'Français (FR)', 'Français (FR)', 'fr', 'fr', '', '', '', '', 1, 0, 0);
+(1, 'en-GB', 'English (UK)', 'English (UK)', 'en', 'en', '', '', '', '', 1, 1, 2),
+(2, 'fr-FR', 'Français (FR)', 'Français (FR)', 'fr', 'fr', '', '', '', '', 1, 1, 1);
 
 
 -- --------------------------------------------------------
@@ -1862,7 +1862,7 @@ CREATE TABLE IF NOT EXISTS `#__updates` (
   `type` varchar(20) DEFAULT '',
   `folder` varchar(20) DEFAULT '',
   `client_id` tinyint(3) DEFAULT 0,
-  `version` varchar(10) DEFAULT '',
+  `version` varchar(32) DEFAULT '',
   `data` text NOT NULL,
   `detailsurl` text NOT NULL,
   `infourl` text NOT NULL,
