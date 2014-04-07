@@ -176,6 +176,8 @@
 		<filename>fr-FR.plg_search_content.sys.ini</filename>
 		<filename>fr-FR.plg_search_newsfeeds.ini</filename>
 		<filename>fr-FR.plg_search_newsfeeds.sys.ini</filename>
+		<filename>fr-FR.plg_search_tags.ini</filename>
+		<filename>fr-FR.plg_search_tags.sys.ini</filename>
 		<filename>fr-FR.plg_search_weblinks.ini</filename>
 		<filename>fr-FR.plg_search_weblinks.sys.ini</filename>
 		<filename>fr-FR.plg_system_cache.ini</filename>
