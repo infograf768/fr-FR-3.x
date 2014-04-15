@@ -9,7 +9,7 @@
 	<authorUrl>www.joomla.fr</authorUrl>
 	<copyright>Copyright (C) 2005 - 2014 joomla.fr et Open Source Matters. Tous droits réservés</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>fr-FR site language for 3.2</description>
+	<description>fr-FR site language for 3.x</description>
 	<files>
 		<filename>index.html</filename>
 		<filename>fr-FR.com_ajax.ini</filename>
