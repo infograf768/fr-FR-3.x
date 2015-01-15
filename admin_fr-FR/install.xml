@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension version="3.3" client="administrator" type="language" method="upgrade">
+<extension version="3.4" client="administrator" type="language" method="upgrade">
 	<name>French Language pack</name>
 	<tag>fr-FR</tag>
-	<version>3.3.6.2</version>
+	<version>3.4.0.1</version>
 	<creationDate>02/10/2014</creationDate>
 	<author>French translation team : joomla.fr</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
