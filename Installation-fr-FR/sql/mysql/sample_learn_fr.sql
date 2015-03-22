@@ -155,8 +155,6 @@ INSERT INTO `#__assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `titl
 (148, 44, 241, 242, 4, 'com_content.article.50', 'Mise à jour', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}'),
 (149, 50, 213, 214, 6, 'com_content.article.51', 'Plug-ins Utilisateurs', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}'),
 (150, 46, 121, 122, 6, 'com_content.article.52', 'Composant Utilisateurs', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}'),
-(151, 44, 243, 244, 4, 'com_content.article.53', 'Utiliser Joomla!', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}'),
-(152, 46, 123, 124, 6, 'com_content.article.54', 'Composant Liens web', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}'),
 (153, 95, 164, 165, 7, 'com_content.article.55', 'Module Liens web', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}'),
 (154, 94, 148, 149, 7, 'com_content.article.56', 'Module Qui est en ligne ?', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}'),
 (155, 108, 261, 262, 6, 'com_content.article.57', 'Requins-tapis', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}'),
