@@ -2,8 +2,8 @@
 <extension type="package" version="3.4" method="upgrade">
 	<name>French_fr-FR</name>
 	<packagename>fr-FR</packagename>
-	<version>3.4.4.2</version>
-	<creationDate>09/09/2015</creationDate>
+	<version>3.4.4.3</version>
+	<creationDate>15/09/2015</creationDate>
 	<author>French translation team : joomla.fr</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>http://joomla.fr</authorUrl>
