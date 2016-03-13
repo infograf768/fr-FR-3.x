@@ -2088,7 +2088,7 @@ CREATE TABLE IF NOT EXISTS `#__viewlevels` (
 
 INSERT INTO `#__viewlevels` (`id`, `title`, `ordering`, `rules`) VALUES
 (1, 'Accès public', 0, '[1]'),
-(2, 'Accès enregistré', 1, '[6,2,8]'),
-(3, 'Accès spécial', 2, '[6,3,8]'),
-(5, 'Accès invité', 0, '[9]'),
-(6, 'Accès super utilisateur', 0, '[8]');
+(2, 'Accès enregistré', 2, '[6,2,8]'),
+(3, 'Accès spécial', 3, '[6,3,8]'),
+(5, 'Accès invité', 1, '[9]'),
+(6, 'Accès super utilisateur', 4, '[8]');
