@@ -2113,7 +2113,7 @@ CREATE TABLE IF NOT EXISTS `#__viewlevels` (
   UNIQUE KEY `idx_assetgroup_title_lookup` (`title`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=7;
 
--- 
+--
 -- Dumping data for table `#__viewlevels`
 --
 
