@@ -3,7 +3,7 @@
 	<name>French (fr-FR)</name>
 	<tag>fr-FR</tag>
 	<version>3.7.0.1</version>
-	<creationDate>21/01/2017</creationDate>
+	<creationDate>06/02/2017</creationDate>
 	<author>French translation team : joomla.fr</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>http://joomla.fr</authorUrl>
@@ -122,6 +122,8 @@
 		<filename>fr-FR.plg_content_contact.sys.ini</filename>
 		<filename>fr-FR.plg_content_emailcloak.ini</filename>
 		<filename>fr-FR.plg_content_emailcloak.sys.ini</filename>
+		<filename>fr-FR.plg_content_fields.ini</filename>
+		<filename>fr-FR.plg_content_fields.sys.ini</filename>
 		<filename>fr-FR.plg_content_finder.ini</filename>
 		<filename>fr-FR.plg_content_finder.sys.ini</filename>
 		<filename>fr-FR.plg_content_joomla.ini</filename>
@@ -138,6 +140,8 @@
 		<filename>fr-FR.plg_editors-xtd_article.sys.ini</filename>
 		<filename>fr-FR.plg_editors-xtd_contact.ini</filename>
 		<filename>fr-FR.plg_editors-xtd_contact.sys.ini</filename>
+		<filename>fr-FR.plg_editors-xtd_fields.ini</filename>
+		<filename>fr-FR.plg_editors-xtd_fields.sys.ini</filename>
 		<filename>fr-FR.plg_editors-xtd_image.ini</filename>
 		<filename>fr-FR.plg_editors-xtd_image.sys.ini</filename>
 		<filename>fr-FR.plg_editors-xtd_menu.ini</filename>
