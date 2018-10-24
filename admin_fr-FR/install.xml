@@ -3,7 +3,7 @@
 	<name>French (FR)</name>
 	<tag>fr-FR</tag>
 	<version>3.9.0.1</version>
-	<creationDate>09/10/2018</creationDate>
+	<creationDate>24/10/2018</creationDate>
 	<author>French translation team : joomla.fr</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>http://joomla.fr</authorUrl>
@@ -232,6 +232,8 @@
 		<filename>fr-FR.plg_installer_webinstaller.sys.ini</filename>
 		<filename>fr-FR.plg_privacy_actionlogs.ini</filename>
 		<filename>fr-FR.plg_privacy_actionlogs.sys.ini</filename>
+		<filename>fr-FR.plg_privacy_consents.ini</filename>
+		<filename>fr-FR.plg_privacy_consents.sys.ini</filename>
 		<filename>fr-FR.plg_privacy_contact.ini</filename>
 		<filename>fr-FR.plg_privacy_contact.sys.ini</filename>
 		<filename>fr-FR.plg_privacy_content.ini</filename>
