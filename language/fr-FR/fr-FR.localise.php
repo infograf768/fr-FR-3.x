@@ -31,11 +31,11 @@ abstract class Fr_FRLocalise
 			}
 			elseif($count == 1)
 			{
-				$return = array('1');
+				$return = array('1', 'ONE');
 			}
 			else
 			{
-				$return = array('MORE');
+				$return = array('MORE', 'OTHER');
 			}
 
 			return $return;
