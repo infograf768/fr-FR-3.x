@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension version="3.9" client="site" type="language" method="upgrade">
+<extension version="3.10" client="site" type="language" method="upgrade">
 	<name>French (France)</name>
 	<tag>fr-FR</tag>
-	<version>3.10.1.1</version>
-	<creationDate>2021-08-23</creationDate>
+	<version>3.10.1.4</version>
+	<creationDate>2021-08-29</creationDate>
 	<author>French translation team : joomla.fr</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>http://joomla.fr</authorUrl>
-	<copyright>Copyright (C) 2013 Joomla.fr and Open Source Matters, Inc.</copyright>
+	<copyright>Copyright (C) 2005 - 2021 Joomla.fr and Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<description>fr-FR - Site language</description>
 	<files>
